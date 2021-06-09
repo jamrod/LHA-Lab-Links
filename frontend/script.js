@@ -1,6 +1,6 @@
 const form = document.querySelector('#form')
 const cwinput = document.querySelector('#codeword')
-const url = "https://k7mdz0megh.execute-api.us-west-2.amazonaws.com/Omega"
+const url = "https://k7mdz0megh.execute-api.us-west-2.amazonaws.com/prod"
 const results =document.querySelector('#results')
 
 form.addEventListener("submit", sendSyncRequest)
